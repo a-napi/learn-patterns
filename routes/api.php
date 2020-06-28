@@ -16,3 +16,4 @@ use Illuminate\Http\Request;
 Route::get('/observer', 'ObserverController@action');
 Route::get('/decorator', 'DecoratorController@action');
 Route::get('/strategy', 'StrategyController@action');
+Route::get('/factory-method', 'FactoryMethodController@action');
